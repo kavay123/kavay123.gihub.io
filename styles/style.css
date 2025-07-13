@@ -255,26 +255,52 @@ h1, p{
 }
 
 
+/*анимации*/
+.john_img{
+    animation-name: john_anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes john_anim {
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.2)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
 
+.siman_img{
+    animation-name: other_anims;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.paul_img{
+    animation-name: other_anims;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.sara_img{
+    animation-name: other_anims;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes other_anims {
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.1)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
 
 
 footer {
